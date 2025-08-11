@@ -57,6 +57,9 @@ Contributions are welcome! Feel free to submit issues or pull requests to improv
 ## Contact
 
 For any questions or support, contact:
+
 **Tashin Parvez**
+
 Email: [tashinparvez2002@gmail.com](mailto:tashinparvez2002@gmail.com)
+
 LinkedIn: [linkedin.com/in/tashinparvez](https://www.linkedin.com/in/tashinparvez/)
