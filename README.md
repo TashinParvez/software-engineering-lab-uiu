@@ -1,12 +1,18 @@
-# Software-Engineering-Lab-UIU
+# 💻 Software-Engineering-Lab-UIU
 
-This repository contains the code and documentation for the Software Engineering Lab course at United International University (UIU). The main focus of this course is to develop a practical understanding of **CRUD (Create, Read, Update, Delete) operations** using PHP and MySQL, version control with Git, and software testing methodologies.
+This repository contains the **code** and **documentation** for the **Software Engineering Lab** course at **United International University (UIU)**.
 
-The project includes building a simple web application that performs database operations, and progressively enhancing it with testing and version control.
+The primary goal of this course is to gain **hands-on experience** in:
+
+- **CRUD Operations** (Create, Read, Update, Delete) using **PHP** and **MySQL**
+- **Version Control** with **Git**
+- **Software Testing** (Unit & Integration Testing)
+
+The project involves building a **simple web application** that performs database operations and progressively enhancing it with **testing** and **version control best practices**.
 
 ---
 
-## Repo Covered
+## 🚀 Repo Covered
 
 - CRUD Operations
 - Git Usage and Management
@@ -14,7 +20,7 @@ The project includes building a simple web application that performs database op
 
 ---
 
-### Prerequisites
+### 📦 Prerequisites
 
 - PHP (version 7.x or higher recommended)
 - MySQL Server
@@ -23,7 +29,7 @@ The project includes building a simple web application that performs database op
 
 ---
 
-### Clone the repository:
+### 📥 Clone the repository:
 
 ```bash
 git clone https://github.com/yourusername/software-engineering-lab-uiu.git
