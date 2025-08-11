@@ -1,0 +1,22 @@
+create database Spring2025_Assignment;
+
+create table Teacher ( 
+	teacher_id INT(10), 
+	name char(30), 
+	course_id char(30),
+	PRIMARY KEY(teacher_id) 
+);
+
+create table Course ( 
+	course_id char(30), 
+	title char(30), 
+	PRIMARY KEY(course_id) 
+);
+
+insert into Teacher values ( 1, 'Somik', 'CSE2233' );
+insert into Teacher values ( 2, 'Rakin', 'CSE1111' );
+insert into Teacher values ( 3, 'Fahmid', '' );
+
+insert into Course values('CSE2233','TOC');
+insert into Course values('CSE1111','SPL');
+insert into Course values('CSE3421','SE');
