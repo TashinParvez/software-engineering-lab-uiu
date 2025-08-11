@@ -30,11 +30,23 @@ if ($result->num_rows > 0) {
     echo "0 results";
 }
 
+// ========================= Insert DATA =========================
+
+$sql = "INSERT INTO `course` (`course_id`, `title`) VALUES ('1542', 'OS');";
+
+if ($conn->query($sql) === TRUE) {
+    echo "Record updated successfully";
+} else {
+    echo "Error updating record: " . $conn->error;
+}
+
+
 // ========================= foreach loop =========================
 
 $sql = "SELECT * FROM `course` WHERE 1;";
 $result = mysqli_query($conn, $sql);
 $result = mysqli_fetch_all($result, MYSQLI_ASSOC);
+// $result = mysqli_fetch_all($result, MYSQLI_NUM);   // for [0]
 
 foreach ($result as $row) {
     echo "course id: " . $row["course_id"] . " - title: " . $row["title"] . "<br>";

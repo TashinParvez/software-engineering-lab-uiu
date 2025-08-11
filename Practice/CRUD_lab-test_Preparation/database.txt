@@ -1,0 +1,13 @@
+create database library_management;
+
+
+CREATE TABLE books (
+    book_id INT AUTO_INCREMENT PRIMARY KEY,
+    title VARCHAR(100) NOT NULL,
+    author VARCHAR(50) NOT NULL,
+    published_year YEAR,
+    genre VARCHAR(30),
+    quantity INT DEFAULT 0
+);
+
+
