@@ -34,13 +34,6 @@ if ($result->num_rows > 0) {
 
 $sql = "INSERT INTO `course` (`course_id`, `title`) VALUES ('1542', 'OS');";
 
-if ($conn->query($sql) === TRUE) {
-    echo "Record updated successfully";
-} else {
-    echo "Error updating record: " . $conn->error;
-}
-
-
 // ========================= foreach loop =========================
 
 $sql = "SELECT * FROM `course` WHERE 1;";
@@ -65,11 +58,6 @@ if ($conn->query($sql) === TRUE) {
 // ========================= DELETE =========================
 
 $sql = "DELETE FROM course WHERE `course_id` = '12121212'";
-if ($conn->query($sql) === TRUE) {
-    echo "Record deleted successfully";
-} else {
-    echo "Error deleting record: " . $conn->error;
-}
 
 // ======================================================
 

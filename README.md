@@ -54,6 +54,16 @@ git clone https://github.com/yourusername/software-engineering-lab-uiu.git
 
 ---
 
+## 📚 Additional Resources
+
+To deepen your understanding of SQL and MySQL database operations, check out this comprehensive guide authored by Tashin Parvez from United International University:
+
+- **MySQL From Zero**:  
+  A detailed resource covering Data Definition Language (DDL) and Data Manipulation Language (DML) commands with practical examples and best practices.  
+  GitHub Link: [https://github.com/TashinParvez/MySQL_From_Zero](https://github.com/TashinParvez/MySQL_From_Zero)
+
+---
+
 ## Contributing
 
 Contributions are welcome! Feel free to submit issues or pull requests to improve functionality, add features, or fix bugs.
