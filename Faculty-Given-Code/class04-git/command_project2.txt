@@ -1,0 +1,19 @@
+git init
+git add .
+git commit -m "Added audio and video files"
+git log
+git branch b1  // Create new branch b1
+git checkout b1  // Move to branch b1
+git log
+git status
+git add .
+git commit -m "update audio"
+git log		// b1 branch will have the commit, not the master branch
+git add .
+git commit -m "Audio updated again"
+git log
+git checkout master
+git checkout b1
+git checkout master
+git merge b1   // Merge b1 branch with master branch 
+git log

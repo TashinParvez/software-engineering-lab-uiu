@@ -1,0 +1,17 @@
+git clone project_url    // Clone a repository created in github, create a repo in github and then clone it, all of your push pull will be connected with that repo
+cd Practice1  //Move to the folder of the repo
+git add .
+git commit -m "Code file added"
+git log
+git config credential/username "username"   // You might need to set your username 
+git pull		// Pull to update your work with the work in github
+git push		// Push your updated work to github
+git status
+git add .
+git commit -m "Sub function"
+git pull  //Merge Conflict occurs with Person 2 who added Add function
+git add .
+git commit -m "Conflict resolved"
+git pull //Already up to date
+git push
+git log
