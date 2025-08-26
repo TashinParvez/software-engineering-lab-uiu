@@ -6,3 +6,4 @@ form tashin branchs
 new edit
 
 edit form vscode
+edit from github
